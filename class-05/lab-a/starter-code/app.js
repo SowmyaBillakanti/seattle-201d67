@@ -86,7 +86,7 @@ function sumArray(sumArr) { //eslint-disable-line
     var sumSoFar = 0;
 
     for(var i = 0; i < sumArr.length; i++) {
-        sumSoFar = sumSoFar + sumArr[i];
+        sumSoFar = sum(sumSoFar, sumArr[i])[0]
     }
 
     var stringSoFar = sumArr[0]
